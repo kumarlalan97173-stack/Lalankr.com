@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,34 +6,40 @@
 <style>
 
 body{
-background:linear-gradient(45deg,#000428,#004e92);
+margin:0;
 font-family:Arial;
-text-align:center;
+background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
 color:white;
 }
 
-h1{
-color:gold;
-font-size:40px;
-}
-
-.menu{
+header{
 background:#111;
 padding:15px;
+text-align:center;
+font-size:28px;
+color:#00ffd5;
+font-weight:bold;
 }
 
-.menu button{
-background:gold;
-border:none;
+nav{
+text-align:center;
+padding:10px;
+background:#1c1c1c;
+}
+
+nav button{
 padding:10px 20px;
 margin:5px;
-font-size:16px;
+border:none;
 border-radius:6px;
+background:#00ffd5;
+font-weight:bold;
+cursor:pointer;
 }
 
-.games{
+.container{
 display:grid;
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 padding:20px;
 }
@@ -43,68 +48,18 @@ padding:20px;
 background:#1c1c1c;
 padding:20px;
 border-radius:12px;
+text-align:center;
 box-shadow:0 0 10px black;
+transition:0.3s;
 }
 
-.card img{
-width:100%;
-border-radius:10px;
+.card:hover{
+transform:scale(1.05);
 }
 
 .play{
-background:gold;
-border:none;
-padding:10px;
 margin-top:10px;
-font-size:16px;
-border-radius:6px;
-}
-
-.wallet{
-background:green;
-color:white;
 padding:10px;
+border:none;
 border-radius:6px;
-}
-
-</style>
-</head>
-
-<body>
-
-<h1>🎮 Lalan KR Gaming</h1>
-
-<div class="menu">
-<button>Login</button>
-<button>Signup</button>
-<button class="wallet">Wallet ₹0</button>
-<button>Deposit</button>
-<button>Withdraw</button>
-</div>
-
-<div class="games">
-
-<div class="card">
-<h2>Ludo Game</h2>
-<button class="play">Play Now</button>
-</div>
-
-<div class="card">
-<h2>Car Racing</h2>
-<button class="play">Play Now</button>
-</div>
-
-<div class="card">
-<h2>Teen Patti</h2>
-<button class="play">Play Now</button>
-</div>
-
-<div class="card">
-<h2>Fire Battle</h2>
-<button class="play">Play Now</button>
-</div>
-
-</div>
-
-</body>
-</html>
+background:#00ffd
