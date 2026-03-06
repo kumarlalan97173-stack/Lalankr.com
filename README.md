@@ -1,20 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lalan KR Gaming</title>
 
+<style>
+body{
+background:black;
+color:white;
+text-align:center;
+font-family:Arial;
+}
 
-<p>
-नमस्कार! मैं <b>लालन कुमार</b> हूँ।  
-इस वेबसाइट पर मैं Trading, Stock Market, Cryptocurrency और  
-Online Knowledge से जुड़ी उपयोगी जानकारी साझा करता हूँ।
-</p>
+h1{
+color:gold;
+}
 
-<p>
-अगर आपको हमारा काम पसंद आता है और आप इस कार्य को आगे बढ़ाने में  
-सहयोग करना चाहते हैं, तो आप अपनी इच्छा अनुसार <b>Donation</b> देकर  
-हमें समर्थन दे सकते हैं।
-</p>
+.game{
+background:#222;
+padding:20px;
+margin:20px;
+border-radius:10px;
+}
 
-<button class="donate-btn">Donate Now</button>
+button{
+background:gold;
+border:none;
+padding:10px 20px;
+font-size:18px;
+border-radius:5px;
+}
+</style>
 
+</head>
+
+<body>
+
+<h1>🎮 Lalan KR Gaming Website</h1>
+
+<div class="game">
+<h2>Snake Game</h2>
+<p>Click below to play game</p>
+<button onclick="alert('Game Starting Soon')">Play</button>
 </div>
-lalankumar22052002-1@okhdfcbank
+
+<div class="game">
+<h2>Car Racing</h2>
+<p>Click below to play game</p>
+<button onclick="alert('Game Starting Soon')">Play</button>
+</div>
+
+<div class="game">
+<h2>Ludo Game</h2>
+<p>Click below to play game</p>
+<button onclick="alert('Game Starting Soon')">Play</button>
+</div>
+
 </body>
 </html>
