@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>LalanKR.com - Support & Donation</title>
 
-<style>
-body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#667eea,#764ba2);
     text-align:center;
     color:white;
 }
